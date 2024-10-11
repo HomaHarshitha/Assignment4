@@ -1,0 +1,135 @@
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal]{IEEEtran}
+\usepackage[a5paper, margin=10mm, onecolumn]{geometry}
+%\usepackage{lmodern} % Ensure lmodern is loaded for pdflatex
+\usepackage{tfrupee} % Include tfrupee package
+
+\setlength{\headheight}{1cm} % Set the height of the header box
+\setlength{\headsep}{0mm}     % Set the distance between the header box and the top of the text
+
+\usepackage{gvv-book}
+\usepackage{gvv}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+% \usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}  
+\usepackage{amsmath,amssymb}
+
+\usepackage{multicol}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+
+\title{
+%	\logo{
+JEE MAINS
+
+\large{EE1030}
+
+APRIL 08, 2023 - SHIFT - 2
+%	}
+}
+\author{Homa Harshitha Vuddanti
+
+(EE24BTECH11062)
+}	
+
+\maketitle
+
+\bigskip
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+QUESTIONS- 16 TO 30\\
+SECTION A
+\begin{enumerate}
+   
+\item The integral $\int \brak{\brak{\frac{x}{2}}^x+\brak{\frac{2}{x}}^x}log_2 x\ dx$ is equal to 
+\begin{multicols}{4}
+    a) $\brak{\frac{x}{2}}^x log_2\brak{\frac{2}{x}}+C$\\
+    b) $\brak{\frac{x}{2}}^x -\brak{\frac{2}{x}}^x+C$\\
+    c) $\brak{\frac{x}{2}}^x log_2\brak{\frac{x}{2}}+C$\\
+    d)  $\brak{\frac{x}{2}}^x +\brak{\frac{2}{x}}^x+C$
+\end{multicols}
+ \item The value of $36\brak{4\cos^2 9\degree -1}\brak{4\cos^2 27\degree -1}\brak{4\cos^2 81\degree}\brak{4\cos^2 243\degree -1}$ is
+ \begin{multicols}{4}
+     a) 27\\
+     b) 54\\
+     c) 18\\
+     d) 36
+ \end{multicols}
+ 
+ \item Let $\vec{A}\brak{0,1}, \vec{B}\brak{1,1}$ and $\vec{C}\brak{1,0}$ be the midpoints of the sides of a triangle with incentre at the point $\vec{D}$. If the focus of the parabola $y^2=4ax$ passing through $\vec{D}$ is $\brak{\alpha +\beta \sqrt{3},0}$, where $\alpha$ and $\beta$ are rational numbers, then $\frac{\alpha}{\beta^2}$ is equal to
+ \begin{multicols}{4}
+    a) 6\\
+    b) 8\\
+    c) $\frac{9}{2}$\\
+    d) 12
+ \end{multicols}
+ 
+\item The negation of $\brak{p \land \brak{\sim q}} \lor \brak{\sim p}
+$ is equivalent to
+\begin{multicols}{4}
+    a) $p \land \brak{\sim q}$\\
+    b) $p \land \brak{q \land \brak{\sim p}}$\\
+    c)  $p \lor \brak{q \lor \brak{\sim p}}$\\
+    d) $p\land q$
+\end{multicols}
+
+\item Let the mean and variance of 12 observations be $\frac{9}{2}$ and 4 respectively. Later on, it was observed that two observations were considered as 9 and 10 instead of 7 and 14 respectively. If the correct variance is $\frac{m}{n}$, where $m$ and $n$ are co-prime, then $m+n$ is equal to
+\begin{multicols}{4}
+    a) 316\\
+    b) 317\\
+    c) 315\\
+    d) 314
+\end{multicols}
+SECTION B
+\item Let $R=\{a,b,c,d,e\}$ and $S=\{1,2,3,4\}$. Total number of onto functions $f: R\mapsto S$ such that $f\brak{a}\neq 1$, is equal to 
+
+\item Let $m$ and $n$ be the number of real roots of the quadratic equations $x^2-12x+\sbrak{x}+31=0$ and $x^2-5\abs{x+2}-4=0$ respectively, where \sbrak{x} denotes the greatest integer $\leq x$. Then $m^2+mn+n^2$ is equal to
+
+\item Let $P_1$ be the plane $3x-y-7z=11$ and $P_2$ be the plane passing through points \brak{2,-1,0},\brak{2,0,-1}, and \brak{5,1,1}. If the foot of the perpendicular drawn from the point \brak{7,4,-1} on the line of intersection of the planes $P_1$ and $P_2$ is \brak{\alpha,\beta,\gamma}, then $\alpha+\beta+\gamma$ is equal to
+
+\item If the domain of the function $\ln \brak{\frac{6x^2+5x+1}{2x-1}}+\cos^{-1}\brak{\frac{2x^2-3x+4}{3x-5}}$ is $\brak{\alpha,\beta}\cup(\gamma,\delta]$, then , $18\brak{\alpha^2+\beta^2+\gamma^2+\delta^2}$ is equal to
+
+\item Let the area enclosed by the lines $x+y=2, y=0, x=0$ and the curve $f\brak{x}=min\{x^2+\frac{3}{4},1+\sbrak{x}\}$ where \sbrak{x} denotes the greatest integer $\leq x$, be $A$, then the value of $12A$ is
+
+\item Let $0<z<y<x$ be three real numbers such that $\frac{1}{x},\frac{1}{y}, \frac{1}{z}$ are in an arithmetic progression and $x,\sqrt{2}y, z$ are in a geometric progression. If $xy+yz+zx=\frac{3}{\sqrt{2}}xyz$, then $3\brak{x+y+z}^2$ is equal to 
+
+\item Let the solution curve $x=x\brak{y}, 0<y<\frac{\pi}{2}$, of the differential equation $\brak{\ln\brak{\cos y}}^2\cos y dx-\brak{1+3x\ln \brak{\cos y}}\sin y dy =0$ satisfy $x\brak{\frac{\pi}{3}}=\frac{1}{2\ln 2}$. If $x\brak{\frac{\pi}{6}}=\frac{1}{\ln m-\ln n}$, where $m$ and $n$ are co-prime, then $mn$ is equal to  
+
+\item Let $\sbrak{t}$ denote the greatest integer function. If $\int_{0}^{2.4} \sbrak{x^2} \, dx
+=\alpha+\beta\sqrt{2}+\gamma\sqrt{3}+\delta\sqrt{5},$ then $\alpha+\beta+\gamma+\delta$ is equal to
+
+\item The ordinates of the points $\vec{P}$ and $\vec{Q}$ on the parabola with focus \brak{3,0} and directrix $x=-3$ are in the ratio $3:1$. If $\vec{R}\brak{\alpha,\beta}$ is the point of intersection of the tangents to the parabola at $\vec{P}$ and $\vec{Q}$, then $\frac{\beta^2}{\alpha}$ is equal to
+
+\item Let $k$ and $m$ be positive real numbers such that the function \\$f\brak{x}=$
+$\begin{cases}
+    3x^2+k\sqrt{x+1}, 0<x<1\\
+    mx^2+k^2, x\geq 1 
+\end{cases} $ \\is differentiable for all $x>0$. Then $\frac{8f^{\prime}\brak{8}}{f^{\prime}\brak{\frac{1}{8}}}$ is equal to
+\end{enumerate}
+\end{document}
+
